@@ -1,0 +1,75 @@
+_G.Generate = true ---Change this to false if you dont want to generate a key!---
+
+
+local sym1 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym2 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym3 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym4 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym5 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym6 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym7 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym8 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym9 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local sym10 = {"!","@","#","$","%","^","&","*","(",")","~","-","+","<",">"}
+local god1 = sym1[math.random(#sym1)]
+local god2 = sym2[math.random(#sym2)]
+local god3 = sym3[math.random(#sym3)]
+local god4 = sym4[math.random(#sym4)]
+local god5 = sym5[math.random(#sym5)]
+local god6 = sym6[math.random(#sym6)]
+local god7 = sym7[math.random(#sym7)]
+local god8 = sym8[math.random(#sym8)]
+local god9 = sym9[math.random(#sym9)]
+local god10 = sym10[math.random(#sym10)]
+local ran1 = math. random(1, 1000)
+local ran2 = math. random(1, 100)
+local ran3 = math. random(1, 102)
+local ran4 = math. random(1.1, 1.9)
+local ran5 = math. random(5, 100)
+local ran6 = math. random(1000, 5000)
+local ran7 = math. random(6, 730)
+local ran8 = math. random(1, 20)
+local ran9 = math. random(3, 18)
+local ran10 = math. random(44, 68)
+local sec1 = ran1*0.5
+local sec2 = ran2/3
+local sec3 = ran3+9.3825
+local sec4 = ran4-15.4
+local sec5 = ran5^2
+local sec6 = ran6*3.25
+local sec7 = ran7/8
+local sec8 = ran8*0.4
+local sec9 = ran9-5
+local sec10 = ran10+63.990
+
+if Generate == true and not Generate == false then
+ print("KeyGen made by Auxxra!")
+ print("--------------------------------------------------")
+ print("KeyGen Status:",Generate)
+ print(god1)
+ print(sec1)
+ print(god9)
+ print(god2)
+ print(sec2)
+ print(god3)
+ print(sec3)
+ print(sec8)
+ print(god4)
+ print(sec4)
+ print(god5)
+ print(sec5)
+ print(god6)
+ print(sec6)
+ print(god7)
+ print(sec7)
+ print(god8)
+ print(sec8)
+ print(god9)
+ print(sec9)
+ print(god10)
+ print(sec10)
+elseif Generate == false and not Generate == true then
+ print("KeyGen made by Auxxra!")
+ print("--------------------------------------------------")
+ print("KeyGen Status:",Generate)
+end
