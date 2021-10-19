@@ -1,0 +1,36 @@
+--- Note: This is a simple key whitelist ----
+--- How to use this in your script: ---
+**** BEFORE YOU DO ANYTHING, CHANGE ("UseTheKeyFromTheKeyGeneratorIMade") to whatever you want your whitelist key to be ****
+1) So basically, you put this above your script
+2) Example: 
+
+_G.Key = ""
+
+if Key == "UseTheKeyFromTheKeyGeneratorIMade" then
+ print("Loading Your Script")
+ --- Put Your Loadstring here ---
+else
+ print("The key is not Correct!")
+ print("Not loading your script!")
+ game.Players.LocalPlayer:kick("Use the correct key")
+end
+
+(put your script that you want to add a whitelist to here)
+
+3) Copy from where it says, "if Key == "UseTheKeyFromTheKeyGeneratorIMade" then" all the way to the end of your script.
+4) DONT COPY (_G.Key = "")
+5) Now obfuscate your script; I recommend using the PSU Obfuscator
+6) Now, 
+----------------------------------------------------------------
+--- Script is below: ---
+
+_G.Key = ""
+
+if Key == "UseTheKeyFromTheKeyGeneratorIMade" then
+ print("The Key is Correct!")
+ print("Loading Your Script")
+ --- Put Your Loadstring here ---
+else
+ print("The key is not Correct!")
+ print("Not loading your script!")
+end
